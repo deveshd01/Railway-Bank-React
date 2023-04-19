@@ -1,0 +1,139 @@
+
+.manager { 
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.5s ease-in-out;
+  width: 100vw;
+  height: max-content;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.manager h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.manager-actions {
+  display: flex;
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.link {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: fadeIn 0.5s ease-in-out;
+  text-decoration: none
+}
+
+.link:hover {
+  background-color: #3e8e41;
+}
+
+.manager-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85vw;
+  animation: fadeIn 0.5s ease-in-out;
+  
+}
+
+.manager-lists ul {
+  width: 30%;
+  margin: 0 10px 20px 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.manager-lists li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-size: 18px;
+  animation: fadeIn 0.5s ease-in-out;
+  margin-left: 5%;
+  
+}
+.manager-lists span{
+  float: right;
+  margin-right: 10%;
+  
+}
+.manager-actions button {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.manager-actions button:hover {
+  background-color: #3e8e41;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.bd{
+  border: solid black 2px;
+} 
+.topButton{
+  display: flex;
+  /* margin: auto; */
+  justify-content: space-around;
+  width: 100%;
+  /* align-items: center; */
+}
+
+.topButton button{
+  padding: 5px;
+  background-color:#ddd;
+}
+
+.deleteBtn{
+  width: 50%;
+}
+/* .inputId{
+  padding: 0.375rem 0.75rem;
+} */

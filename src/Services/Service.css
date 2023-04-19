@@ -1,0 +1,97 @@
+h2{
+  margin-bottom: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+  }
+  
+  .sub-main {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+  }
+  
+  .imgs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+  }
+  
+  .container-image {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 100px;
+  }
+  
+  .service-icon {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    
+  }
+  
+  .name {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #180a69;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .add-service {
+    background-color: #3a9e3c;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    
+  }
+  
+  .remove-service {
+    background-color: rgb(160, 55, 55);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  

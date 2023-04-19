@@ -1,0 +1,62 @@
+h2{
+  margin-top: 50px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  background-color: #f0f2f5;
+  
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  
+}
+
+.input-container label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  background-color: #e1ebe8;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  background-color: #2b9348;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button-container button:hover {
+  background-color: #007f5f;
+}

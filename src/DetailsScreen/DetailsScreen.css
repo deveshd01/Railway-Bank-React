@@ -1,0 +1,11 @@
+.card{
+    border: solid black 2px;
+    margin: 5px;
+    width: 100px;
+}
+
+.parentDiv{
+    display: inline-block;
+    /* height: 90vh; */
+    padding: 2%;
+}

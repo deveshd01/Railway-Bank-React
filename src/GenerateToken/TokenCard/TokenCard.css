@@ -1,0 +1,38 @@
+.token-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .token-card .card-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .token-card .card-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .token-card .card-text div {
+    margin-bottom: 10px;
+  }
+  
+  .token-card .card-text strong {
+    font-weight: bold;
+  }
+  
+  .token-card .card-text .status {
+    color: #007bff;
+  }
+  
+  .token-card .card-text .status.pending {
+    color: #ffc107;
+  }
+  
+  .token-card .card-text .status.completed {
+    color: #28a745;
+  }
+  

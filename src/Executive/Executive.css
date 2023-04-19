@@ -1,0 +1,33 @@
+.counter-station {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  div {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+  }

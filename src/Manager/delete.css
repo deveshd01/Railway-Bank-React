@@ -1,0 +1,28 @@
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .delete input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .delete button {
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .delete button:hover {
+    background-color: darkred;
+  }
+  
