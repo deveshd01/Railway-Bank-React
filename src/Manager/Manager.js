@@ -7,7 +7,8 @@ let baseURL = 'http://localhost:8080';
 
 
 function Manager() {
-  
+  const [selectedDelete, setselectedDelete] = useState("");
+  const [inputId, setinputId] = useState("");
   const [refresh, setRefresh] = useState(false);
   const closeAllCounter = () => {
     // dialog box for password;
@@ -47,8 +48,7 @@ function Manager() {
   };
 
 
-  const [selectedDelete, setselectedDelete] = useState("");
-  const [inputId, setinputId] = useState("");
+  
   const deleteJSX = (
     <div className="input-group mb-3 deleteBtn">
       <div className="input-group-prepend">

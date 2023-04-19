@@ -92,7 +92,7 @@ function Header(props) {
   let waitingTokenList = [];
   function handleNextClick() {
     alert("NEXT button clicked  previous token -->" + currentToken.tokenNo);
-    if (currentToken.tokenId != '0') {
+    if (currentToken.tokenId !== '0') {
       console.log("token set for 5 min")
       waitingTokenList.push(currentToken.tokenId);
       const timeoutId = setTimeout(() => {
@@ -215,7 +215,7 @@ function Header(props) {
         ))}
       </div>
       <div >
-        {fullQueueList.length != 0 &&
+        {fullQueueList.length !== 0 &&
           <div className="tokenList">
             <button id="myButton" onClick={() => setfullQueueList([])}>X</button>
             <ul >
