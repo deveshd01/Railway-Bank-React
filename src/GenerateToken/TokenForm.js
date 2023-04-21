@@ -67,7 +67,7 @@ const TokenForm = () => {
       <h1>Welcome!</h1>
       <div id="contact-form">
         <div>
-          <span>Choose Services:</span>
+          <span><br/>Choose Services:</span>
         </div>
         <Button name="refresh" type="button" id="refresh" variant="secondary" onClick={handleRefreshClick} >
           Refresh
@@ -97,7 +97,7 @@ const TokenForm = () => {
         </table>
         <form onSubmit={handleFormSubmit}>
           <div className="submit">
-            <Button name="submit" type="submit" id="submit" style={{ width: '100px', backgroundColor: 'green', color: 'white' }} >
+            <Button name="submit" type="submit" id="submit" style={{width:'auto', backgroundColor: 'green', color: 'white' }} >
               Generate Token
             </Button>
           </div>

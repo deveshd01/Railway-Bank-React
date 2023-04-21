@@ -1,7 +1,7 @@
 .card{
     border: solid black 2px;
     margin: 5px;
-    width: 100px;
+    /* width: 100px; */
 }
 
 .parentDiv{

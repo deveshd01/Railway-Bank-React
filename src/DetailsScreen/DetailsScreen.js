@@ -10,7 +10,7 @@ var stompClient = null;
 export default function DetailsScreen() {
 
     useEffect(() => {
-        let Sock = new SockJS('baseURL/ws');
+        let Sock = new SockJS(baseURL+'/ws');
         stompClient = over(Sock);
         stompClient.connect({}, onConnected, onError);
 

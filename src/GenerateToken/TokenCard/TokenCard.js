@@ -14,7 +14,7 @@ const TokenCard = ({ obj }) => {
       <Card.Body>
         <Card.Title>Token No. {obj.tokenNo}</Card.Title>
         <Card.Text>
-          <strong>Counter No.: </strong>{obj2.counterNo}<br/>
+          {/* <strong>Counter No.: </strong>{obj2.counterNo}<br/> */}
           <strong>Service Name: </strong>{obj2.serviceName}<br/>
           <strong>Time Generated: </strong>{obj2.timeGenerated}<br/>
           <strong>Expected Time: </strong>{obj2.expectedTime}<br/>

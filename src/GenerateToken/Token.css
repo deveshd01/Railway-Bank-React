@@ -82,6 +82,7 @@ h1 {
 
 #submit {
   width: 100px;
+  
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -130,7 +131,10 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  color: brown;
-  margin-bottom: 1rem;
-  margin-right: auto;
+  background-color: rgb(132, 58, 216);
+    margin: 1rem;
+    margin-right: auto;
+    padding: 0.5%;
+    font-size: small;
 }
+
