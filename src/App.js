@@ -14,6 +14,10 @@ import Manager from './Manager/Manager';
 import Service from './Services/Service';
 import ManagerProfile from './Manager/ManagerProfile';
 import DetailsScreen from './DetailsScreen/DetailsScreen';
+import { useEffect, useState } from 'react';
+
+import baseURL from "./Utils.js";
+
 
 
 
@@ -32,6 +36,8 @@ import DetailsScreen from './DetailsScreen/DetailsScreen';
 
 
 function App() {
+
+
   return (
     <>
       <div className='home'>

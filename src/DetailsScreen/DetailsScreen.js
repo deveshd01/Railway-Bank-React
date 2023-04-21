@@ -3,14 +3,14 @@ import { over } from 'stompjs';
 import SockJS from 'sockjs-client';
 import axios from 'axios';
 import "./DetailsScreen.css";
+import baseURL from "../Utils.js";
 
-let baseURL = 'http://localhost:8080';
 
 var stompClient = null;
 export default function DetailsScreen() {
 
     useEffect(() => {
-        let Sock = new SockJS('http://localhost:8080/ws');
+        let Sock = new SockJS('baseURL/ws');
         stompClient = over(Sock);
         stompClient.connect({}, onConnected, onError);
 

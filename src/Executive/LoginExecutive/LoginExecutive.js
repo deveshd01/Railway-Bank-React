@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import "./Login2.css";
 import Header from "../../Header/Header";
 import axios from "axios";
+import baseURL from "../../Utils.js";
 
-let baseURL = 'http://localhost:8080';
 
 function LoginExecutive(props) {
 

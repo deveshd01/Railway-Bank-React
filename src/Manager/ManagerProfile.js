@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react'
 import "./Manager.css";
 import "./delete.css";
 import axios from 'axios';
-let baseURL = 'http://localhost:8080';
+import baseURL from "../Utils.js";
+
+
+
 export default function ManagerProfile() {
     const [services, setServices] = useState([]);
     const [counters, setCounters] = useState([]);

@@ -4,10 +4,12 @@ import Button from 'react-bootstrap/Button';
 import './Token.css';
 import axios from "axios";
 import TokenCard from "./TokenCard/TokenCard";
-let baseURL = 'http://localhost:8080';
+import baseURL from "../Utils.js";
+
 
 
 const TokenForm = () => {
+
   const [selectedServices, setSelectedServices] = useState([]);
   const [serviceOptions, setserviceOptions] = useState([]);
   const [generatedTokenList, setgeneratedTokenList] = useState([]);

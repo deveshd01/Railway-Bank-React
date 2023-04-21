@@ -8,15 +8,15 @@ import LoginExecutive from "../Executive/LoginExecutive/LoginExecutive";
 import TokenCard from "../GenerateToken/TokenCard/TokenCard";
 import { Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import baseURL from "../Utils.js";
 
 
-let baseURL = 'http://localhost:8080';
 var stompClient = null;
 
 function Header(props) {
 
   useEffect(() => {
-    let Sock = new SockJS('http://localhost:8080/ws');
+    let Sock = new SockJS(baseURL + '/ws');
     stompClient = over(Sock);
     stompClient.connect({}, onConnected, onError);
   }, []);

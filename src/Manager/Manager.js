@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Manager.css";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import axios from "axios";
+import baseURL from "../Utils.js";
 
-let baseURL = 'http://localhost:8080';
 
 
 function Manager() {

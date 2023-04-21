@@ -3,8 +3,9 @@ import serviceIcon from "./Service.png";
 import { useRef, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import baseURL from "../Utils.js";
 
-let baseURL = "http://localhost:8080";
+
 function Service() {
   const navigate = useNavigate();
   const [services, setServices] = useState([{ number: "", name: "" }]);

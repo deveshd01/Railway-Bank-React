@@ -4,8 +4,8 @@ import serviceIcon from "./Counter.png";
 import { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import baseURL from "../Utils.js";
 
-let baseURL = "http://localhost:8080";
 
 function Counter(props) {
   let navigate = useNavigate();

@@ -2,8 +2,7 @@ import React, { useRef, useState } from "react";
 import "./AddForm.css"
 import axios from 'axios';
 import { useNavigate, useNavigation } from "react-router-dom";
-
-const baseURL = 'http://localhost:8080';
+import baseURL from "../../Utils.js";
 
 function AddForm(props) {
   
